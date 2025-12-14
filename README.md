@@ -1,1 +1,1 @@
-# besley-burgess-2004-replication-
+# Replication of Besley & Burgess (2004)
