@@ -42,3 +42,5 @@ library(here)
 # write_csv(regulation_index,
 #           here("data/processed/regulation_index.csv"))
 
+amendments <- readr::read_csv(here::here("data/raw/labour_amendments.csv"))
+
