@@ -75,11 +75,21 @@ es_emp <- feols(
   cluster = "state"
 )
 
+png(
+  filename = here("output/figures/event_study_employment.png"),
+  width = 800,
+  height = 500
+)
+
 iplot(
   es_emp,
   xlab = "Years relative to first regulation change (binned at ±10)",
   main = "Event Study: Manufacturing Employment"
 )
+
+dev.off()
+
+
 
 # -----------------------------
 # 7) Event study: Output
@@ -90,8 +100,19 @@ es_out <- feols(
   cluster = "state"
 )
 
+
+png(
+  filename = here("output/figures/event_study_output.png"),
+  width = 800,
+  height = 500
+)
+
 iplot(
   es_out,
   xlab = "Years relative to first regulation change (binned at ±10)",
   main = "Event Study: Manufacturing Output"
 )
+
+dev.off()
+
+
