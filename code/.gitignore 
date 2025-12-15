@@ -1,0 +1,24 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# renv
+renv/library/
+renv/python/
+renv/staging/
+
+# Raw data (keep private)
+data/raw/
