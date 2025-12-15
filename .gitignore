@@ -47,3 +47,15 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# macOS system files
+.DS_Store
+
+# RStudio junk
+.Rhistory
+.RData
+.Rproj.user/
+
+# Temporary / scratch files
+code/Untitled.R
+
